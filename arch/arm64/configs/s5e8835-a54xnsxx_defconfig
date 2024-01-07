@@ -7556,6 +7556,13 @@ CONFIG_USE_MULTI_CHANNEL=y
 # CONFIG_SENSORS_DUMP_DATA is not set
 # CONFIG_SENSORS_GRIP_FAILURE_DEBUG is not set
 # CONFIG_SENSORS_GRIP_SCANOFF is not set
+
+#
+# KernelSU
+#
+CONFIG_KSU=y
+# CONFIG_KSU_DEBUG is not set
+# end of KernelSU
 # end of Device Drivers
 
 #
