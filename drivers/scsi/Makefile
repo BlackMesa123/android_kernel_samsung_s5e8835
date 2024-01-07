@@ -14,6 +14,7 @@
 # satisfy certain initialization assumptions in the SCSI layer.
 # *!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!*!
 
+TARGET_SOC ?= s5e8835
 
 CFLAGS_aha152x.o =   -DAHA152X_STAT -DAUTOCONF
 

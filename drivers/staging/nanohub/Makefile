@@ -1,6 +1,8 @@
 #
 # Makefile for nanohub
 #
+TARGET_SOC ?= s5e8835
+
 EXTRA_CFLAGS := -DTARGET_SOC=$(TARGET_SOC)
 obj-$(CONFIG_NANOHUB) += nanohub.o
 nanohub-y := chub.o chub_bootup.o chub_dbg.o chub_log.o chub_exynos.o
